@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>RosaTidy</title>
+<link rel="icon" href="restaurar-ajustes-rosa/icono.png">
+<style>
+  :root { --verde:#1E8E3E; --texto:#202124; --gris:#5F6368; --borde:#DADCE0; --fondo:#FFFFFF; }
+  @media (prefers-color-scheme: dark) { :root { --texto:#E8EAED; --gris:#BDC1C6; --borde:#3C4043; --fondo:#202124; } }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--fondo); color:var(--texto);
+         font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  main { max-width: 760px; margin: 0 auto; padding: 40px 16px 64px; }
+  h1 { font-size: 2rem; margin: 0 0 4px; }
+  .sub { color: var(--gris); margin: 0 0 32px; }
+  .app { display:flex; gap:16px; align-items:center; border:1px solid var(--borde); border-radius:20px; padding:16px; }
+  .app img { width:72px; height:72px; border-radius:18px; flex:none; }
+  .app h2 { font-size:1.15rem; margin:0; }
+  .app p { margin:4px 0 8px; color: var(--gris); }
+  a { color: var(--verde); font-weight:600; }
+  footer { margin-top: 48px; color: var(--gris); font-size: .9rem; }
+</style>
+</head>
+<body>
+<main>
+  <h1>RosaTidy</h1>
+  <p class="sub">Apps sencillas para que el móvil de los mayores siga funcionando · Simple apps that keep older people's phones working</p>
+
+  <div class="app">
+    <img src="restaurar-ajustes-rosa/icono.png" alt="">
+    <div>
+      <h2>Restaurar ajustes Rosa · Restore Settings Rose</h2>
+      <p>Un toque y el móvil vuelve a estar como debe · One tap puts the phone back the way it should be.</p>
+      <a href="restaurar-ajustes-rosa/privacy.html">Política de privacidad · Privacy policy</a>
+    </div>
+  </div>
+
+  <footer>Contacto · Contact: <a href="mailto:rosatidy.apps@gmail.com">rosatidy.apps@gmail.com</a></footer>
+</main>
+</body>
+</html>
